@@ -6,7 +6,7 @@ import sys
 dictionary = {}
 char = {}
 
-                                                                               # Convering and saving characters ASCII numbers
+                                                                              # Convering and saving characters ASCII numbers
 for i in range(255):
     dictionary[chr(i)] = i
     char[i] = chr(i)
