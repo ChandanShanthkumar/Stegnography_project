@@ -1,4 +1,3 @@
-import tkinter
 import cv2
 import os
 import string
@@ -18,10 +17,9 @@ def Encrypt():
     n = 0
     m = 0
     z = 0
-                                                                                          # for loop for XOR of message 
+                                                                                   # for loop for XOR of message 
                                                                                      # With password with rgb pixels of image 
                                                                                           #(stegnography in lsb of rgb)
-        
     for i in range(length):
         image[n, m, z] = dictionary[message[i]] ^ dictionary[password[key_length]]
         n = n + 1
